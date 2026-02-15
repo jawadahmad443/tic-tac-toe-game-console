@@ -3,6 +3,10 @@
 let box = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let currentPlayer = prompt("Enter symbol X or O :-").toUpperCase();
 
+if (currentPlayer !== "X" || currentPlayer !== "O") {
+    alert("Please select X or  O")
+}
+
 function allboxs() {
     console.log(`
 ____________
